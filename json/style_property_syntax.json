@@ -359,6 +359,21 @@
                 "pt",
                 "px"
             ]
+        },
+        {
+            "name": "GridTemplateUnit",
+            "values": [
+                "em",
+                "mxcnt",
+                "mncnt",
+                "%",
+                "px",
+                "vw",
+                "vh",
+                "s",
+                "aw",
+                "ah"
+            ]
         }
     ],
     "properties": [
