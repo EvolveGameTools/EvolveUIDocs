@@ -1,0 +1,1142 @@
+{
+    "enums": [
+        {
+            "name": "LayoutBehavior",
+            "values": [
+                "Normal",
+                "Ignored"
+            ]
+        },
+        {
+            "name": "LayoutDirection",
+            "values": [
+                "Forward",
+                "Reverse"
+            ]
+        },
+        {
+            "name": "LayoutType",
+            "values": [
+                "Vertical",
+                "Horizontal",
+                "GridHorizontal",
+                "GridVertical",
+                "Radial",
+                "Stack",
+                "VerticalWrap",
+                "HorizontalWrap"
+            ]
+        },
+        {
+            "name": "GridLayoutDensity",
+            "values": [
+                "Sparse",
+                "Dense"
+            ]
+        },
+        {
+            "name": "SpaceCollapse",
+            "values": [
+                "None",
+                "RemoveInner",
+                "RemoveOuter",
+                "Remove",
+                "CollapseOuter",
+                "CollapseInner",
+                "Collapse"
+            ]
+        },
+        {
+            "name": "AlignmentBoundary",
+            "values": [
+                "None",
+                "Screen",
+                "Parent",
+                "ParentContentArea",
+                "Clipper",
+                "View",
+                "UnconstrainedParent"
+            ]
+        },
+        {
+            "name": "AlignmentTarget",
+            "values": [
+                "LayoutBox",
+                "Clipper",
+                "Parent",
+                "ParentContentArea",
+                "View",
+                "Screen",
+                "Mouse"
+            ]
+        },
+        {
+            "name": "AlignmentDirection",
+            "values": [
+                "Start",
+                "End"
+            ]
+        },
+        {
+            "name": "ImageRenderMode",
+            "values": [
+                "Default",
+                "FullImage",
+                "Sliced",
+                "SlicedWithoutCenter",
+                "SlicedOnlyCenter"
+            ]
+        },
+        {
+            "name": "UVWrapMode",
+            "values": [
+                "Default",
+                "Wrap",
+                "Clamp"
+            ]
+        },
+        {
+            "name": "BackgroundFit",
+            "values": [
+                "None",
+                "ScaleToFit",
+                "ScaleToFitAndOverflow",
+                "Fill"
+            ]
+        },
+        {
+            "name": "Visibility",
+            "values": [
+                "Visible",
+                "Hidden",
+                "Always"
+            ]
+        },
+        {
+            "name": "BorderMode",
+            "values": [
+                "Outset",
+                "Inset",
+                "Overlay"
+            ]
+        },
+        {
+            "name": "PointerEvents",
+            "values": [
+                "Normal",
+                "None"
+            ]
+        },
+        {
+            "name": "TextAlignmentVertical",
+            "values": [
+                "Baseline",
+                "Top",
+                "Bottom",
+                "Center"
+            ]
+        },
+        {
+            "name": "TextAlignment",
+            "values": [
+                "Left",
+                "Right",
+                "Center"
+            ]
+        },
+        {
+            "name": "WhitespaceMode",
+            "values": [
+                "None",
+                "CollapseWhitespace",
+                "PreserveNewLines",
+                "TrimStart",
+                "TrimEnd",
+                "Trim",
+                "CollapseWhitespaceAndTrim",
+                "TrimLineStart",
+                "TrimLineEnd",
+                "TrimLine",
+                "NoWrap",
+                "CollapseMultipleNewLines"
+            ]
+        },
+        {
+            "name": "TextTransform",
+            "values": [
+                "None",
+                "UpperCase",
+                "LowerCase",
+                "SmallCaps",
+                "TitleCase"
+            ]
+        },
+        {
+            "name": "FontStyle",
+            "values": [
+                "Normal",
+                "Bold",
+                "Italic",
+                "Underline",
+                "StrikeThrough"
+            ]
+        },
+        {
+            "name": "TextOverflow",
+            "values": [
+                "None",
+                "Truncate",
+                "Ellipsis"
+            ]
+        },
+        {
+            "name": "ClipBounds",
+            "values": [
+                "BorderBox",
+                "ContentBox"
+            ]
+        },
+        {
+            "name": "ClipBehavior",
+            "values": [
+                "Normal",
+                "Never",
+                "SkipOneLevel",
+                "View",
+                "Screen"
+            ]
+        },
+        {
+            "name": "Overflow",
+            "values": [
+                "Visible",
+                "Hidden"
+            ]
+        },
+        {
+            "name": "RevealMode",
+            "values": [
+                "None",
+                "Manual",
+                "Radial90_TopLeft",
+                "Radial90_TopRight",
+                "Radial90_BottomRight",
+                "Radial90_BottomLeft",
+                "HorizontalSweepLeft",
+                "HorizontalSweepRight",
+                "VerticalSweepUp",
+                "VerticalSweepDown",
+                "RadialSweep",
+                "Radial360_Bottom",
+                "Radial360_Left",
+                "Radial360_Right",
+                "CenterExpand",
+                "OffsetExpand"
+            ]
+        },
+        {
+            "name": "RevealDirection",
+            "values": [
+                "Clockwise",
+                "CounterClockwise"
+            ]
+        }
+    ],
+    "valueUnits": [
+        {
+            "name": "TextureRelativeSizeUnit",
+            "values": [
+                "%",
+                "px",
+                "bw",
+                "bh"
+            ]
+        },
+        {
+            "name": "UISpaceSizeUnit",
+            "values": [
+                "em",
+                "px",
+                "vw",
+                "vh",
+                "s",
+                "aw",
+                "ah"
+            ]
+        },
+        {
+            "name": "UISizeConstraintUnit",
+            "values": [
+                "cnt",
+                "em",
+                "lh",
+                "psz",
+                "%",
+                "px",
+                "vw",
+                "vh",
+                "bw",
+                "bh",
+                "aw",
+                "ah",
+                "mx",
+                "mn"
+            ]
+        },
+        {
+            "name": "UIMeasurementUnit",
+            "values": [
+                "cnt",
+                "em",
+                "lh",
+                "psz",
+                "%",
+                "px",
+                "vw",
+                "vh",
+                "bw",
+                "bh",
+                "s",
+                "aw",
+                "ah",
+                "mx",
+                "mn",
+                "strcnt",
+                "fc",
+                "fr"
+            ]
+        },
+        {
+            "name": "AlignmentOffsetUnit",
+            "values": [
+                "w",
+                "h",
+                "cnth",
+                "cntw",
+                "em",
+                "pw",
+                "ph",
+                "pcaw",
+                "pcah",
+                "caw",
+                "cah",
+                "%",
+                "px",
+                "sw",
+                "sh",
+                "vw",
+                "vh",
+                "bw",
+                "bh"
+            ]
+        },
+        {
+            "name": "ElementRelativeSizeUnit",
+            "values": [
+                "w",
+                "h",
+                "%",
+                "px",
+                "bw",
+                "bh",
+                "mnwh",
+                "mxwh"
+            ]
+        },
+        {
+            "name": "UIAngleUnit",
+            "values": [
+                "%",
+                "deg",
+                "rad"
+            ]
+        },
+        {
+            "name": "UIFontSizeUnit",
+            "values": [
+                "em",
+                "rem",
+                "pt",
+                "px"
+            ]
+        }
+    ],
+    "properties": [
+        {
+            "name": "BorderLeft",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "TextureRelativeSizeUnit"
+        },
+        {
+            "name": "PaddingRight",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "UISpaceSizeUnit"
+        },
+        {
+            "name": "PaddingLeft",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "UISpaceSizeUnit"
+        },
+        {
+            "name": "MarginTop",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "UISpaceSizeUnit"
+        },
+        {
+            "name": "MarginBottom",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "UISpaceSizeUnit"
+        },
+        {
+            "name": "PaddingBottom",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "UISpaceSizeUnit"
+        },
+        {
+            "name": "MinWidth",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "UISizeConstraintUnit"
+        },
+        {
+            "name": "MarginLeft",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "UISpaceSizeUnit"
+        },
+        {
+            "name": "MinHeight",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "UISizeConstraintUnit"
+        },
+        {
+            "name": "MaxHeight",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "UISizeConstraintUnit"
+        },
+        {
+            "name": "PreferredWidth",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "UIMeasurementUnit"
+        },
+        {
+            "name": "PreferredHeight",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "UIMeasurementUnit"
+        },
+        {
+            "name": "BorderTop",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "TextureRelativeSizeUnit"
+        },
+        {
+            "name": "BorderRight",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "TextureRelativeSizeUnit"
+        },
+        {
+            "name": "BorderBottom",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "TextureRelativeSizeUnit"
+        },
+        {
+            "name": "MaxWidth",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "UISizeConstraintUnit"
+        },
+        {
+            "name": "MarginRight",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "UISpaceSizeUnit"
+        },
+        {
+            "name": "PaddingTop",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "UISpaceSizeUnit"
+        },
+        {
+            "name": "LayoutFillOriginVertical",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "float"
+        },
+        {
+            "name": "GridOverflowAxisTemplate",
+            "syntaxClassification": "GridTemplate",
+            "typeArgument": ""
+        },
+        {
+            "name": "LayoutPriority",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "uint32"
+        },
+        {
+            "name": "LayoutBehavior",
+            "syntaxClassification": "Enum",
+            "typeArgument": "LayoutBehavior"
+        },
+        {
+            "name": "LayoutDirection",
+            "syntaxClassification": "Enum",
+            "typeArgument": "LayoutDirection"
+        },
+        {
+            "name": "LayoutType",
+            "syntaxClassification": "Enum",
+            "typeArgument": "LayoutType"
+        },
+        {
+            "name": "GridItemX",
+            "syntaxClassification": "GridItem",
+            "typeArgument": ""
+        },
+        {
+            "name": "GridItemY",
+            "syntaxClassification": "GridItem",
+            "typeArgument": ""
+        },
+        {
+            "name": "GridLayoutDensity",
+            "syntaxClassification": "Enum",
+            "typeArgument": "GridLayoutDensity"
+        },
+        {
+            "name": "AspectRatio",
+            "syntaxClassification": "AspectRatio",
+            "typeArgument": ""
+        },
+        {
+            "name": "CollapseSpaceVertical",
+            "syntaxClassification": "EnumFlag",
+            "typeArgument": "SpaceCollapse"
+        },
+        {
+            "name": "SpaceBetweenVertical",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "UISpaceSizeUnit"
+        },
+        {
+            "name": "GridLayoutColGap",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "float"
+        },
+        {
+            "name": "GridMainAxisTemplate",
+            "syntaxClassification": "GridTemplate",
+            "typeArgument": ""
+        },
+        {
+            "name": "CollapseSpaceHorizontal",
+            "syntaxClassification": "EnumFlag",
+            "typeArgument": "SpaceCollapse"
+        },
+        {
+            "name": "SpaceBetweenHorizontal",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "UISpaceSizeUnit"
+        },
+        {
+            "name": "LayoutFillOriginHorizontal",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "float"
+        },
+        {
+            "name": "GridLayoutRowGap",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "float"
+        },
+        {
+            "name": "AlignmentOffsetX",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "AlignmentOffsetUnit"
+        },
+        {
+            "name": "AlignmentOriginX",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "AlignmentOffsetUnit"
+        },
+        {
+            "name": "AlignmentBoundaryX",
+            "syntaxClassification": "Enum",
+            "typeArgument": "AlignmentBoundary"
+        },
+        {
+            "name": "AlignmentTargetX",
+            "syntaxClassification": "Enum",
+            "typeArgument": "AlignmentTarget"
+        },
+        {
+            "name": "AlignmentOffsetY",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "AlignmentOffsetUnit"
+        },
+        {
+            "name": "AlignmentDirectionX",
+            "syntaxClassification": "Enum",
+            "typeArgument": "AlignmentDirection"
+        },
+        {
+            "name": "AlignmentDirectionY",
+            "syntaxClassification": "Enum",
+            "typeArgument": "AlignmentDirection"
+        },
+        {
+            "name": "AlignmentTargetY",
+            "syntaxClassification": "Enum",
+            "typeArgument": "AlignmentTarget"
+        },
+        {
+            "name": "AlignmentBoundaryY",
+            "syntaxClassification": "Enum",
+            "typeArgument": "AlignmentBoundary"
+        },
+        {
+            "name": "AlignmentOriginY",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "AlignmentOffsetUnit"
+        },
+        {
+            "name": "BackgroundColor",
+            "syntaxClassification": "Color",
+            "typeArgument": ""
+        },
+        {
+            "name": "BackgroundTint",
+            "syntaxClassification": "Color",
+            "typeArgument": ""
+        },
+        {
+            "name": "BackgroundImageOffsetX",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "TextureRelativeSizeUnit"
+        },
+        {
+            "name": "BackgroundMode",
+            "syntaxClassification": "Enum",
+            "typeArgument": "ImageRenderMode"
+        },
+        {
+            "name": "TransformPivotY",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "ElementRelativeSizeUnit"
+        },
+        {
+            "name": "TransformPivotX",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "ElementRelativeSizeUnit"
+        },
+        {
+            "name": "RenderTransform",
+            "syntaxClassification": "Matrix",
+            "typeArgument": ""
+        },
+        {
+            "name": "OutlineColor",
+            "syntaxClassification": "Color",
+            "typeArgument": ""
+        },
+        {
+            "name": "Layer",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "uint32"
+        },
+        {
+            "name": "ZIndex",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "uint32"
+        },
+        {
+            "name": "BackgroundImageRotation",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "UIAngleUnit"
+        },
+        {
+            "name": "BackgroundImageUVWrap",
+            "syntaxClassification": "Enum",
+            "typeArgument": "UVWrapMode"
+        },
+        {
+            "name": "BackgroundFit",
+            "syntaxClassification": "Enum",
+            "typeArgument": "BackgroundFit"
+        },
+        {
+            "name": "BorderColor",
+            "syntaxClassification": "Color",
+            "typeArgument": ""
+        },
+        {
+            "name": "BackgroundImageOffsetY",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "TextureRelativeSizeUnit"
+        },
+        {
+            "name": "Opacity",
+            "syntaxClassification": "Range01",
+            "typeArgument": ""
+        },
+        {
+            "name": "BackgroundImageScaleY",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "float"
+        },
+        {
+            "name": "OutlineWidth",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "ElementRelativeSizeUnit"
+        },
+        {
+            "name": "Dilate",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "float"
+        },
+        {
+            "name": "Feather",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "float"
+        },
+        {
+            "name": "BackgroundRectMinY",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "TextureRelativeSizeUnit"
+        },
+        {
+            "name": "Visibility",
+            "syntaxClassification": "EnumFlag",
+            "typeArgument": "Visibility"
+        },
+        {
+            "name": "CornerBevelBottomLeft",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "ElementRelativeSizeUnit"
+        },
+        {
+            "name": "BackgroundRectMinX",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "TextureRelativeSizeUnit"
+        },
+        {
+            "name": "BackgroundImage",
+            "syntaxClassification": "TextureReference",
+            "typeArgument": ""
+        },
+        {
+            "name": "BackgroundRectMaxX",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "TextureRelativeSizeUnit"
+        },
+        {
+            "name": "BackgroundRectMaxY",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "TextureRelativeSizeUnit"
+        },
+        {
+            "name": "BackgroundImageScaleX",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "float"
+        },
+        {
+            "name": "CornerBevelBottomRight",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "ElementRelativeSizeUnit"
+        },
+        {
+            "name": "CornerBevelTopRight",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "ElementRelativeSizeUnit"
+        },
+        {
+            "name": "CornerBevelTopLeft",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "ElementRelativeSizeUnit"
+        },
+        {
+            "name": "CornerRadiusBottomLeft",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "ElementRelativeSizeUnit"
+        },
+        {
+            "name": "CornerRadiusBottomRight",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "ElementRelativeSizeUnit"
+        },
+        {
+            "name": "CornerRadiusTopRight",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "ElementRelativeSizeUnit"
+        },
+        {
+            "name": "CornerRadiusTopLeft",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "ElementRelativeSizeUnit"
+        },
+        {
+            "name": "BorderMode",
+            "syntaxClassification": "Enum",
+            "typeArgument": "BorderMode"
+        },
+        {
+            "name": "Cursor",
+            "syntaxClassification": "AssetReference",
+            "typeArgument": ""
+        },
+        {
+            "name": "PointerEvents",
+            "syntaxClassification": "Enum",
+            "typeArgument": "PointerEvents"
+        },
+        {
+            "name": "TextFontAsset",
+            "syntaxClassification": "AssetReference",
+            "typeArgument": ""
+        },
+        {
+            "name": "TextVerticalAlignment",
+            "syntaxClassification": "Enum",
+            "typeArgument": "TextAlignmentVertical"
+        },
+        {
+            "name": "TextAlignment",
+            "syntaxClassification": "Enum",
+            "typeArgument": "TextAlignment"
+        },
+        {
+            "name": "TextLineHeight",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "float"
+        },
+        {
+            "name": "TextCharacterSpacing",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "UIFontSizeUnit"
+        },
+        {
+            "name": "TextWordSpacing",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "float"
+        },
+        {
+            "name": "TextMaxLineCount",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "uint32"
+        },
+        {
+            "name": "TextWhitespaceMode",
+            "syntaxClassification": "EnumFlag",
+            "typeArgument": "WhitespaceMode"
+        },
+        {
+            "name": "TextFontSize",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "UIFontSizeUnit"
+        },
+        {
+            "name": "TextUnderlaySoftness",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "float"
+        },
+        {
+            "name": "TextSelectionCaretColor",
+            "syntaxClassification": "Color",
+            "typeArgument": ""
+        },
+        {
+            "name": "TextTransform",
+            "syntaxClassification": "Enum",
+            "typeArgument": "TextTransform"
+        },
+        {
+            "name": "TextFontStyle",
+            "syntaxClassification": "EnumFlag",
+            "typeArgument": "FontStyle"
+        },
+        {
+            "name": "TextOverflow",
+            "syntaxClassification": "Enum",
+            "typeArgument": "TextOverflow"
+        },
+        {
+            "name": "TextOutlineWidth",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "float"
+        },
+        {
+            "name": "TextOutlineSoftness",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "float"
+        },
+        {
+            "name": "TextFaceDilate",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "float"
+        },
+        {
+            "name": "TextColor",
+            "syntaxClassification": "Color",
+            "typeArgument": ""
+        },
+        {
+            "name": "TextOutlineColor",
+            "syntaxClassification": "Color",
+            "typeArgument": ""
+        },
+        {
+            "name": "TextSelectionColor",
+            "syntaxClassification": "Color",
+            "typeArgument": ""
+        },
+        {
+            "name": "TextSelectionHighlightColor",
+            "syntaxClassification": "Color",
+            "typeArgument": ""
+        },
+        {
+            "name": "TextUnderlayColor",
+            "syntaxClassification": "Color",
+            "typeArgument": ""
+        },
+        {
+            "name": "TextUnderlayDilate",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "float"
+        },
+        {
+            "name": "TextUnderlayY",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "float"
+        },
+        {
+            "name": "TextUnderlayX",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "float"
+        },
+        {
+            "name": "ClipBounds",
+            "syntaxClassification": "Enum",
+            "typeArgument": "ClipBounds"
+        },
+        {
+            "name": "ClipBehavior",
+            "syntaxClassification": "Enum",
+            "typeArgument": "ClipBehavior"
+        },
+        {
+            "name": "OverflowY",
+            "syntaxClassification": "Enum",
+            "typeArgument": "Overflow"
+        },
+        {
+            "name": "OverflowX",
+            "syntaxClassification": "Enum",
+            "typeArgument": "Overflow"
+        },
+        {
+            "name": "MaskScaleY",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "float"
+        },
+        {
+            "name": "Mask",
+            "syntaxClassification": "TextureReference",
+            "typeArgument": ""
+        },
+        {
+            "name": "MaskThreshold",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "float"
+        },
+        {
+            "name": "MaskOffsetY",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "TextureRelativeSizeUnit"
+        },
+        {
+            "name": "MaskOffsetX",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "TextureRelativeSizeUnit"
+        },
+        {
+            "name": "MaskRotation",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "UIAngleUnit"
+        },
+        {
+            "name": "MaskScaleX",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "float"
+        },
+        {
+            "name": "ShadowBlur",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "float"
+        },
+        {
+            "name": "ShadowSpread",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "float"
+        },
+        {
+            "name": "ShadowOffsetY",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "ElementRelativeSizeUnit"
+        },
+        {
+            "name": "ShadowColor",
+            "syntaxClassification": "Color",
+            "typeArgument": ""
+        },
+        {
+            "name": "ShadowOffsetX",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "ElementRelativeSizeUnit"
+        },
+        {
+            "name": "RevealOffsetY",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "ElementRelativeSizeUnit"
+        },
+        {
+            "name": "RevealOffsetX",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "ElementRelativeSizeUnit"
+        },
+        {
+            "name": "RevealRadius",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "ElementRelativeSizeUnit"
+        },
+        {
+            "name": "RevealAmount",
+            "syntaxClassification": "Scalar",
+            "typeArgument": "float"
+        },
+        {
+            "name": "RevealMode",
+            "syntaxClassification": "Enum",
+            "typeArgument": "RevealMode"
+        },
+        {
+            "name": "RevealDirection",
+            "syntaxClassification": "Enum",
+            "typeArgument": "RevealDirection"
+        },
+        {
+            "name": "RevealRotation",
+            "syntaxClassification": "ValueUnit",
+            "typeArgument": "UIAngleUnit"
+        }
+    ],
+    "shorthands": [
+        {
+            "name": "Padding",
+            "syntaxClassification": "ValueUnit",
+            "maxPropertyCount": 4,
+            "typeArgument": "UISpaceSizeUnit"
+        },
+        {
+            "name": "Margin",
+            "syntaxClassification": "ValueUnit",
+            "maxPropertyCount": 4,
+            "typeArgument": "UISpaceSizeUnit"
+        },
+        {
+            "name": "Border",
+            "syntaxClassification": "ValueUnit",
+            "maxPropertyCount": 4,
+            "typeArgument": "TextureRelativeSizeUnit"
+        },
+        {
+            "name": "CornerRadius",
+            "syntaxClassification": "ValueUnit",
+            "maxPropertyCount": 4,
+            "typeArgument": "ElementRelativeSizeUnit"
+        },
+        {
+            "name": "CornerBevel",
+            "syntaxClassification": "ValueUnit",
+            "maxPropertyCount": 4,
+            "typeArgument": "ElementRelativeSizeUnit"
+        },
+        {
+            "name": "RevealOffset",
+            "syntaxClassification": "ValueUnit",
+            "maxPropertyCount": 2,
+            "typeArgument": "ElementRelativeSizeUnit"
+        },
+        {
+            "name": "BackgroundImageScale",
+            "syntaxClassification": "Scalar",
+            "maxPropertyCount": 2,
+            "typeArgument": "float"
+        },
+        {
+            "name": "BackgroundImageOffset",
+            "syntaxClassification": "ValueUnit",
+            "maxPropertyCount": 2,
+            "typeArgument": "TextureRelativeSizeUnit"
+        },
+        {
+            "name": "AlignmentDirection",
+            "syntaxClassification": "Enum",
+            "maxPropertyCount": 2,
+            "typeArgument": "AlignmentDirection"
+        },
+        {
+            "name": "AlignmentTarget",
+            "syntaxClassification": "Enum",
+            "maxPropertyCount": 2,
+            "typeArgument": "AlignmentTarget"
+        },
+        {
+            "name": "AlignmentOrigin",
+            "syntaxClassification": "ValueUnit",
+            "maxPropertyCount": 2,
+            "typeArgument": "AlignmentOffsetUnit"
+        },
+        {
+            "name": "AlignmentOffset",
+            "syntaxClassification": "ValueUnit",
+            "maxPropertyCount": 2,
+            "typeArgument": "AlignmentOffsetUnit"
+        },
+        {
+            "name": "AlignmentBoundary",
+            "syntaxClassification": "Enum",
+            "maxPropertyCount": 2,
+            "typeArgument": "AlignmentBoundary"
+        },
+        {
+            "name": "Overflow",
+            "syntaxClassification": "Enum",
+            "maxPropertyCount": 2,
+            "typeArgument": "Overflow"
+        },
+        {
+            "name": "CollapseSpace",
+            "syntaxClassification": "EnumFlag",
+            "maxPropertyCount": 2,
+            "typeArgument": "SpaceCollapse"
+        },
+        {
+            "name": "SpaceBetween",
+            "syntaxClassification": "ValueUnit",
+            "maxPropertyCount": 2,
+            "typeArgument": "UISpaceSizeUnit"
+        },
+        {
+            "name": "PreferredSize",
+            "syntaxClassification": "ValueUnit",
+            "maxPropertyCount": 2,
+            "typeArgument": "UIMeasurementUnit"
+        },
+        {
+            "name": "MaxSize",
+            "syntaxClassification": "ValueUnit",
+            "maxPropertyCount": 2,
+            "typeArgument": "UISizeConstraintUnit"
+        },
+        {
+            "name": "MinSize",
+            "syntaxClassification": "ValueUnit",
+            "maxPropertyCount": 2,
+            "typeArgument": "UISizeConstraintUnit"
+        }
+    ]
+}
