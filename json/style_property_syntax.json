@@ -380,662 +380,794 @@
         {
             "name": "BorderLeft",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "TextureRelativeSizeUnit"
+            "typeArgument": "TextureRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "PaddingRight",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "UISpaceSizeUnit"
+            "typeArgument": "UISpaceSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "PaddingLeft",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "UISpaceSizeUnit"
+            "typeArgument": "UISpaceSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "MarginTop",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "UISpaceSizeUnit"
+            "typeArgument": "UISpaceSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "MarginBottom",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "UISpaceSizeUnit"
+            "typeArgument": "UISpaceSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "PaddingBottom",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "UISpaceSizeUnit"
+            "typeArgument": "UISpaceSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "MinWidth",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "UISizeConstraintUnit"
+            "typeArgument": "UISizeConstraintUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "MarginLeft",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "UISpaceSizeUnit"
+            "typeArgument": "UISpaceSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "MinHeight",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "UISizeConstraintUnit"
+            "typeArgument": "UISizeConstraintUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "MaxHeight",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "UISizeConstraintUnit"
+            "typeArgument": "UISizeConstraintUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "PreferredWidth",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "UIMeasurementUnit"
+            "typeArgument": "UIMeasurementUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "PreferredHeight",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "UIMeasurementUnit"
+            "typeArgument": "UIMeasurementUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "BorderTop",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "TextureRelativeSizeUnit"
+            "typeArgument": "TextureRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "BorderRight",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "TextureRelativeSizeUnit"
+            "typeArgument": "TextureRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "BorderBottom",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "TextureRelativeSizeUnit"
+            "typeArgument": "TextureRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "MaxWidth",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "UISizeConstraintUnit"
+            "typeArgument": "UISizeConstraintUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "MarginRight",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "UISpaceSizeUnit"
+            "typeArgument": "UISpaceSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "PaddingTop",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "UISpaceSizeUnit"
+            "typeArgument": "UISpaceSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "LayoutFillOriginVertical",
             "syntaxClassification": "Scalar",
-            "typeArgument": "float"
+            "typeArgument": "float",
+            "assetCompletionSource": null
         },
         {
             "name": "GridOverflowAxisTemplate",
             "syntaxClassification": "GridTemplate",
-            "typeArgument": ""
+            "typeArgument": null,
+            "assetCompletionSource": null
         },
         {
             "name": "LayoutPriority",
             "syntaxClassification": "Scalar",
-            "typeArgument": "uint32"
+            "typeArgument": "uint32",
+            "assetCompletionSource": null
         },
         {
             "name": "LayoutBehavior",
             "syntaxClassification": "Enum",
-            "typeArgument": "LayoutBehavior"
+            "typeArgument": "LayoutBehavior",
+            "assetCompletionSource": null
         },
         {
             "name": "LayoutDirection",
             "syntaxClassification": "Enum",
-            "typeArgument": "LayoutDirection"
+            "typeArgument": "LayoutDirection",
+            "assetCompletionSource": null
         },
         {
             "name": "LayoutType",
             "syntaxClassification": "Enum",
-            "typeArgument": "LayoutType"
+            "typeArgument": "LayoutType",
+            "assetCompletionSource": null
         },
         {
             "name": "GridItemX",
             "syntaxClassification": "GridItem",
-            "typeArgument": ""
+            "typeArgument": null,
+            "assetCompletionSource": null
         },
         {
             "name": "GridItemY",
             "syntaxClassification": "GridItem",
-            "typeArgument": ""
+            "typeArgument": null,
+            "assetCompletionSource": null
         },
         {
             "name": "GridLayoutDensity",
             "syntaxClassification": "Enum",
-            "typeArgument": "GridLayoutDensity"
+            "typeArgument": "GridLayoutDensity",
+            "assetCompletionSource": null
         },
         {
             "name": "AspectRatio",
             "syntaxClassification": "AspectRatio",
-            "typeArgument": ""
+            "typeArgument": null,
+            "assetCompletionSource": null
         },
         {
             "name": "CollapseSpaceVertical",
             "syntaxClassification": "EnumFlag",
-            "typeArgument": "SpaceCollapse"
+            "typeArgument": "SpaceCollapse",
+            "assetCompletionSource": null
         },
         {
             "name": "SpaceBetweenVertical",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "UISpaceSizeUnit"
+            "typeArgument": "UISpaceSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "GridLayoutColGap",
             "syntaxClassification": "Scalar",
-            "typeArgument": "float"
+            "typeArgument": "float",
+            "assetCompletionSource": null
         },
         {
             "name": "GridMainAxisTemplate",
             "syntaxClassification": "GridTemplate",
-            "typeArgument": ""
+            "typeArgument": null,
+            "assetCompletionSource": null
         },
         {
             "name": "CollapseSpaceHorizontal",
             "syntaxClassification": "EnumFlag",
-            "typeArgument": "SpaceCollapse"
+            "typeArgument": "SpaceCollapse",
+            "assetCompletionSource": null
         },
         {
             "name": "SpaceBetweenHorizontal",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "UISpaceSizeUnit"
+            "typeArgument": "UISpaceSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "LayoutFillOriginHorizontal",
             "syntaxClassification": "Scalar",
-            "typeArgument": "float"
+            "typeArgument": "float",
+            "assetCompletionSource": null
         },
         {
             "name": "GridLayoutRowGap",
             "syntaxClassification": "Scalar",
-            "typeArgument": "float"
+            "typeArgument": "float",
+            "assetCompletionSource": null
         },
         {
             "name": "AlignmentOffsetX",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "AlignmentOffsetUnit"
+            "typeArgument": "AlignmentOffsetUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "AlignmentOriginX",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "AlignmentOffsetUnit"
+            "typeArgument": "AlignmentOffsetUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "AlignmentBoundaryX",
             "syntaxClassification": "Enum",
-            "typeArgument": "AlignmentBoundary"
+            "typeArgument": "AlignmentBoundary",
+            "assetCompletionSource": null
         },
         {
             "name": "AlignmentTargetX",
             "syntaxClassification": "Enum",
-            "typeArgument": "AlignmentTarget"
+            "typeArgument": "AlignmentTarget",
+            "assetCompletionSource": null
         },
         {
             "name": "AlignmentOffsetY",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "AlignmentOffsetUnit"
+            "typeArgument": "AlignmentOffsetUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "AlignmentDirectionX",
             "syntaxClassification": "Enum",
-            "typeArgument": "AlignmentDirection"
+            "typeArgument": "AlignmentDirection",
+            "assetCompletionSource": null
         },
         {
             "name": "AlignmentDirectionY",
             "syntaxClassification": "Enum",
-            "typeArgument": "AlignmentDirection"
+            "typeArgument": "AlignmentDirection",
+            "assetCompletionSource": null
         },
         {
             "name": "AlignmentTargetY",
             "syntaxClassification": "Enum",
-            "typeArgument": "AlignmentTarget"
+            "typeArgument": "AlignmentTarget",
+            "assetCompletionSource": null
         },
         {
             "name": "AlignmentBoundaryY",
             "syntaxClassification": "Enum",
-            "typeArgument": "AlignmentBoundary"
+            "typeArgument": "AlignmentBoundary",
+            "assetCompletionSource": null
         },
         {
             "name": "AlignmentOriginY",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "AlignmentOffsetUnit"
+            "typeArgument": "AlignmentOffsetUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "BackgroundColor",
             "syntaxClassification": "Color",
-            "typeArgument": ""
+            "typeArgument": null,
+            "assetCompletionSource": null
         },
         {
             "name": "BackgroundTint",
             "syntaxClassification": "Color",
-            "typeArgument": ""
+            "typeArgument": null,
+            "assetCompletionSource": null
         },
         {
             "name": "BackgroundImageOffsetX",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "TextureRelativeSizeUnit"
+            "typeArgument": "TextureRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "BackgroundMode",
             "syntaxClassification": "Enum",
-            "typeArgument": "ImageRenderMode"
+            "typeArgument": "ImageRenderMode",
+            "assetCompletionSource": null
         },
         {
             "name": "TransformPivotY",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "ElementRelativeSizeUnit"
+            "typeArgument": "ElementRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "TransformPivotX",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "ElementRelativeSizeUnit"
+            "typeArgument": "ElementRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "RenderTransform",
             "syntaxClassification": "Matrix",
-            "typeArgument": ""
+            "typeArgument": null,
+            "assetCompletionSource": null
         },
         {
             "name": "OutlineColor",
             "syntaxClassification": "Color",
-            "typeArgument": ""
+            "typeArgument": null,
+            "assetCompletionSource": null
         },
         {
             "name": "Layer",
             "syntaxClassification": "Scalar",
-            "typeArgument": "uint32"
+            "typeArgument": "uint32",
+            "assetCompletionSource": null
         },
         {
             "name": "ZIndex",
             "syntaxClassification": "Scalar",
-            "typeArgument": "uint32"
+            "typeArgument": "uint32",
+            "assetCompletionSource": null
         },
         {
             "name": "BackgroundImageRotation",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "UIAngleUnit"
+            "typeArgument": "UIAngleUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "BackgroundImageUVWrap",
             "syntaxClassification": "Enum",
-            "typeArgument": "UVWrapMode"
+            "typeArgument": "UVWrapMode",
+            "assetCompletionSource": null
         },
         {
             "name": "BackgroundFit",
             "syntaxClassification": "Enum",
-            "typeArgument": "BackgroundFit"
+            "typeArgument": "BackgroundFit",
+            "assetCompletionSource": null
         },
         {
             "name": "BorderColor",
             "syntaxClassification": "Color",
-            "typeArgument": ""
+            "typeArgument": null,
+            "assetCompletionSource": null
         },
         {
             "name": "BackgroundImageOffsetY",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "TextureRelativeSizeUnit"
+            "typeArgument": "TextureRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "Opacity",
             "syntaxClassification": "Range01",
-            "typeArgument": ""
+            "typeArgument": null,
+            "assetCompletionSource": null
         },
         {
             "name": "BackgroundImageScaleY",
             "syntaxClassification": "Scalar",
-            "typeArgument": "float"
+            "typeArgument": "float",
+            "assetCompletionSource": null
         },
         {
             "name": "OutlineWidth",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "ElementRelativeSizeUnit"
+            "typeArgument": "ElementRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "Dilate",
             "syntaxClassification": "Scalar",
-            "typeArgument": "float"
+            "typeArgument": "float",
+            "assetCompletionSource": null
         },
         {
             "name": "Feather",
             "syntaxClassification": "Scalar",
-            "typeArgument": "float"
+            "typeArgument": "float",
+            "assetCompletionSource": null
         },
         {
             "name": "BackgroundRectMinY",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "TextureRelativeSizeUnit"
+            "typeArgument": "TextureRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "Visibility",
             "syntaxClassification": "EnumFlag",
-            "typeArgument": "Visibility"
+            "typeArgument": "Visibility",
+            "assetCompletionSource": null
         },
         {
             "name": "CornerBevelBottomLeft",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "ElementRelativeSizeUnit"
+            "typeArgument": "ElementRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "BackgroundRectMinX",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "TextureRelativeSizeUnit"
+            "typeArgument": "TextureRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "BackgroundImage",
             "syntaxClassification": "TextureReference",
-            "typeArgument": ""
+            "typeArgument": null,
+            "assetCompletionSource": "textures"
         },
         {
             "name": "BackgroundRectMaxX",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "TextureRelativeSizeUnit"
+            "typeArgument": "TextureRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "BackgroundRectMaxY",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "TextureRelativeSizeUnit"
+            "typeArgument": "TextureRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "BackgroundImageScaleX",
             "syntaxClassification": "Scalar",
-            "typeArgument": "float"
+            "typeArgument": "float",
+            "assetCompletionSource": null
         },
         {
             "name": "CornerBevelBottomRight",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "ElementRelativeSizeUnit"
+            "typeArgument": "ElementRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "CornerBevelTopRight",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "ElementRelativeSizeUnit"
+            "typeArgument": "ElementRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "CornerBevelTopLeft",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "ElementRelativeSizeUnit"
+            "typeArgument": "ElementRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "CornerRadiusBottomLeft",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "ElementRelativeSizeUnit"
+            "typeArgument": "ElementRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "CornerRadiusBottomRight",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "ElementRelativeSizeUnit"
+            "typeArgument": "ElementRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "CornerRadiusTopRight",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "ElementRelativeSizeUnit"
+            "typeArgument": "ElementRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "CornerRadiusTopLeft",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "ElementRelativeSizeUnit"
+            "typeArgument": "ElementRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "BorderMode",
             "syntaxClassification": "Enum",
-            "typeArgument": "BorderMode"
+            "typeArgument": "BorderMode",
+            "assetCompletionSource": null
         },
         {
             "name": "Cursor",
             "syntaxClassification": "AssetReference",
-            "typeArgument": ""
+            "typeArgument": null,
+            "assetCompletionSource": "cursors"
         },
         {
             "name": "PointerEvents",
             "syntaxClassification": "Enum",
-            "typeArgument": "PointerEvents"
+            "typeArgument": "PointerEvents",
+            "assetCompletionSource": null
         },
         {
             "name": "TextFontAsset",
             "syntaxClassification": "AssetReference",
-            "typeArgument": ""
+            "typeArgument": null,
+            "assetCompletionSource": "fonts"
         },
         {
             "name": "TextVerticalAlignment",
             "syntaxClassification": "Enum",
-            "typeArgument": "TextAlignmentVertical"
+            "typeArgument": "TextAlignmentVertical",
+            "assetCompletionSource": null
         },
         {
             "name": "TextAlignment",
             "syntaxClassification": "Enum",
-            "typeArgument": "TextAlignment"
+            "typeArgument": "TextAlignment",
+            "assetCompletionSource": null
         },
         {
             "name": "TextLineHeight",
             "syntaxClassification": "Scalar",
-            "typeArgument": "float"
+            "typeArgument": "float",
+            "assetCompletionSource": null
         },
         {
             "name": "TextCharacterSpacing",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "UIFontSizeUnit"
+            "typeArgument": "UIFontSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "TextWordSpacing",
             "syntaxClassification": "Scalar",
-            "typeArgument": "float"
+            "typeArgument": "float",
+            "assetCompletionSource": null
         },
         {
             "name": "TextMaxLineCount",
             "syntaxClassification": "Scalar",
-            "typeArgument": "uint32"
+            "typeArgument": "uint32",
+            "assetCompletionSource": null
         },
         {
             "name": "TextWhitespaceMode",
             "syntaxClassification": "EnumFlag",
-            "typeArgument": "WhitespaceMode"
+            "typeArgument": "WhitespaceMode",
+            "assetCompletionSource": null
         },
         {
             "name": "TextFontSize",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "UIFontSizeUnit"
+            "typeArgument": "UIFontSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "TextUnderlaySoftness",
             "syntaxClassification": "Scalar",
-            "typeArgument": "float"
+            "typeArgument": "float",
+            "assetCompletionSource": null
         },
         {
             "name": "TextSelectionCaretColor",
             "syntaxClassification": "Color",
-            "typeArgument": ""
+            "typeArgument": null,
+            "assetCompletionSource": null
         },
         {
             "name": "TextTransform",
             "syntaxClassification": "Enum",
-            "typeArgument": "TextTransform"
+            "typeArgument": "TextTransform",
+            "assetCompletionSource": null
         },
         {
             "name": "TextFontStyle",
             "syntaxClassification": "EnumFlag",
-            "typeArgument": "FontStyle"
+            "typeArgument": "FontStyle",
+            "assetCompletionSource": null
         },
         {
             "name": "TextOverflow",
             "syntaxClassification": "Enum",
-            "typeArgument": "TextOverflow"
+            "typeArgument": "TextOverflow",
+            "assetCompletionSource": null
         },
         {
             "name": "TextOutlineWidth",
             "syntaxClassification": "Scalar",
-            "typeArgument": "float"
+            "typeArgument": "float",
+            "assetCompletionSource": null
         },
         {
             "name": "TextOutlineSoftness",
             "syntaxClassification": "Scalar",
-            "typeArgument": "float"
+            "typeArgument": "float",
+            "assetCompletionSource": null
         },
         {
             "name": "TextFaceDilate",
             "syntaxClassification": "Scalar",
-            "typeArgument": "float"
+            "typeArgument": "float",
+            "assetCompletionSource": null
         },
         {
             "name": "TextColor",
             "syntaxClassification": "Color",
-            "typeArgument": ""
+            "typeArgument": null,
+            "assetCompletionSource": null
         },
         {
             "name": "TextOutlineColor",
             "syntaxClassification": "Color",
-            "typeArgument": ""
+            "typeArgument": null,
+            "assetCompletionSource": null
         },
         {
             "name": "TextSelectionColor",
             "syntaxClassification": "Color",
-            "typeArgument": ""
+            "typeArgument": null,
+            "assetCompletionSource": null
         },
         {
             "name": "TextSelectionHighlightColor",
             "syntaxClassification": "Color",
-            "typeArgument": ""
+            "typeArgument": null,
+            "assetCompletionSource": null
         },
         {
             "name": "TextUnderlayColor",
             "syntaxClassification": "Color",
-            "typeArgument": ""
+            "typeArgument": null,
+            "assetCompletionSource": null
         },
         {
             "name": "TextUnderlayDilate",
             "syntaxClassification": "Scalar",
-            "typeArgument": "float"
+            "typeArgument": "float",
+            "assetCompletionSource": null
         },
         {
             "name": "TextUnderlayY",
             "syntaxClassification": "Scalar",
-            "typeArgument": "float"
+            "typeArgument": "float",
+            "assetCompletionSource": null
         },
         {
             "name": "TextUnderlayX",
             "syntaxClassification": "Scalar",
-            "typeArgument": "float"
+            "typeArgument": "float",
+            "assetCompletionSource": null
         },
         {
             "name": "ClipBounds",
             "syntaxClassification": "Enum",
-            "typeArgument": "ClipBounds"
+            "typeArgument": "ClipBounds",
+            "assetCompletionSource": null
         },
         {
             "name": "ClipBehavior",
             "syntaxClassification": "Enum",
-            "typeArgument": "ClipBehavior"
+            "typeArgument": "ClipBehavior",
+            "assetCompletionSource": null
         },
         {
             "name": "OverflowY",
             "syntaxClassification": "Enum",
-            "typeArgument": "Overflow"
+            "typeArgument": "Overflow",
+            "assetCompletionSource": null
         },
         {
             "name": "OverflowX",
             "syntaxClassification": "Enum",
-            "typeArgument": "Overflow"
+            "typeArgument": "Overflow",
+            "assetCompletionSource": null
         },
         {
             "name": "MaskScaleY",
             "syntaxClassification": "Scalar",
-            "typeArgument": "float"
+            "typeArgument": "float",
+            "assetCompletionSource": null
         },
         {
             "name": "Mask",
             "syntaxClassification": "TextureReference",
-            "typeArgument": ""
+            "typeArgument": null,
+            "assetCompletionSource": "textures"
         },
         {
             "name": "MaskThreshold",
             "syntaxClassification": "Scalar",
-            "typeArgument": "float"
+            "typeArgument": "float",
+            "assetCompletionSource": null
         },
         {
             "name": "MaskOffsetY",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "TextureRelativeSizeUnit"
+            "typeArgument": "TextureRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "MaskOffsetX",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "TextureRelativeSizeUnit"
+            "typeArgument": "TextureRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "MaskRotation",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "UIAngleUnit"
+            "typeArgument": "UIAngleUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "MaskScaleX",
             "syntaxClassification": "Scalar",
-            "typeArgument": "float"
+            "typeArgument": "float",
+            "assetCompletionSource": null
         },
         {
             "name": "ShadowBlur",
             "syntaxClassification": "Scalar",
-            "typeArgument": "float"
+            "typeArgument": "float",
+            "assetCompletionSource": null
         },
         {
             "name": "ShadowSpread",
             "syntaxClassification": "Scalar",
-            "typeArgument": "float"
+            "typeArgument": "float",
+            "assetCompletionSource": null
         },
         {
             "name": "ShadowOffsetY",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "ElementRelativeSizeUnit"
+            "typeArgument": "ElementRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "ShadowColor",
             "syntaxClassification": "Color",
-            "typeArgument": ""
+            "typeArgument": null,
+            "assetCompletionSource": null
         },
         {
             "name": "ShadowOffsetX",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "ElementRelativeSizeUnit"
+            "typeArgument": "ElementRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "RevealOffsetY",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "ElementRelativeSizeUnit"
+            "typeArgument": "ElementRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "RevealOffsetX",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "ElementRelativeSizeUnit"
+            "typeArgument": "ElementRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "RevealRadius",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "ElementRelativeSizeUnit"
+            "typeArgument": "ElementRelativeSizeUnit",
+            "assetCompletionSource": null
         },
         {
             "name": "RevealAmount",
             "syntaxClassification": "Scalar",
-            "typeArgument": "float"
+            "typeArgument": "float",
+            "assetCompletionSource": null
         },
         {
             "name": "RevealMode",
             "syntaxClassification": "Enum",
-            "typeArgument": "RevealMode"
+            "typeArgument": "RevealMode",
+            "assetCompletionSource": null
         },
         {
             "name": "RevealDirection",
             "syntaxClassification": "Enum",
-            "typeArgument": "RevealDirection"
+            "typeArgument": "RevealDirection",
+            "assetCompletionSource": null
         },
         {
             "name": "RevealRotation",
             "syntaxClassification": "ValueUnit",
-            "typeArgument": "UIAngleUnit"
+            "typeArgument": "UIAngleUnit",
+            "assetCompletionSource": null
         }
     ],
     "shorthands": [
